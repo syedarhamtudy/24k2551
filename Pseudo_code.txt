@@ -20,7 +20,7 @@ Q2:
 2 INPUT number1
 3 INPUT number2
 4 INPUT number3
-5 SET sum to -(number1 + number2 + number3)
+5 SET sum to (-number1 - number2 - number3)
 6 SET sum to sum * -1
 7 PRINT "The sum of the numbers is: " + sum
 8 END
