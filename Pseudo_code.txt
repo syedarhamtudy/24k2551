@@ -13,7 +13,7 @@
 9 ENDIF
 10 ELSE
   set maximum to number3
-11 PRINT "maximum"
+11 PRINT maximum
 12 END
 
 //Q2:
@@ -24,5 +24,21 @@
 4 INPUT number3
 5 SET sum to (-number1 - number2 - number3)
 6 SET sum to sum * -1
-7 PRINT "sum"
+7 PRINT sum
 8 END
+
+//Q3:
+
+1 START
+2 INPUT number1
+3 INPUT operator
+4 INPUT number2
+5 SET ans to 0
+6 IF operator = '+' THEN
+7 SET ans to number1 + number2
+8 ENDIF
+9 IF operator = '-' THEN
+10 SET ans to number1 - number2
+11 ENDIF
+12 PRINT ans
+13 END
