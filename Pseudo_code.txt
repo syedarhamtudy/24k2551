@@ -1,20 +1,22 @@
-Q1:
+//Q1:
 
 1 START
 2 INPUT number1
 3 INPUT number2
 4 INPUT number3
-5 SET max to number1
-6 IF number2 > max THEN
-7     SET max to number2
-8 ENDIF
-9 IF number3 > max THEN
-10    SET max to number3
-11 ENDIF
-12 PRINT "The maximum number is: " + max
-13 END
+5 SET maximum to 0 
+6 IF number1> number2 & number1>number3 THEN
+  set maximum to number1
+7 ENDIF
+8 IF number2>number1 & number2>number3 THEN
+ set maximum to number2
+9 ENDIF
+10 ELSE
+  set maximum to number3
+11 PRINT "maximum"
+12 END
 
-Q2:
+//Q2:
 
 1 START
 2 INPUT number1
@@ -22,5 +24,5 @@ Q2:
 4 INPUT number3
 5 SET sum to (-number1 - number2 - number3)
 6 SET sum to sum * -1
-7 PRINT "The sum of the numbers is: " + sum
+7 PRINT "sum"
 8 END
