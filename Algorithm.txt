@@ -1,0 +1,46 @@
+Q1:
+
+1 Start
+2 Input nth
+3 Input n
+4 If n % nth == 0 then:
+Print "nth is a divisor of n"
+5 If nth % 2 == 0 then:
+ Print "nth is an even number"
+6 Else:
+ Print "nth is an odd number"
+7 Else:
+ Print "nth is not a divisor of n"
+9 End
+
+Q2:
+
+1 Start
+2 Input month_number
+3 If month_number == 1 then:
+ Print "January"
+4 Else if month_number == 2 then:
+ Print "February"
+5 Else if month_number == 3 then:
+ Print "March"
+7 Else if month_number == 4 then:
+ Print "April"
+8 Else if month_number == 5 then:
+ Print "May"
+9 Else if month_number == 6 then:
+ Print "June"
+10 Else if month_number == 7 then:
+ Print "July"
+11 Else if month_number == 8 then:
+ Print "August"
+12 Else if month_number == 9 then:
+ Print "September"
+13 Else if month_number == 10 then:
+ Print "October"
+14 Else if month_number == 11 then:
+ Print "November"
+15 Else if month_number == 12 then:
+ Print "December"
+Else:
+Print "Invalid month number"
+16 End
